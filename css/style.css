@@ -9,30 +9,65 @@
 }
 
 .headings{
-    color:black;
-    font-size:18px;
-    font-weight:400;
-    background-color:#eaeaea;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
 }
 .spisok2{
-    color:rebeccapurple;
-    font-size:25px;
+    color: rebeccapurple;
+    font-size: 25px;
 }
 .img1 {
     border: 2px solid purple;
 }
-.iframe1{
-    border:5px;
-    background-color:darkkhaki;
+.iframe1 {
+    border: 5px;
+    background-color: darkkhaki;
     width: 300px;
     height: 30px;
-    font-size:20px;
+    font-size: 20px;
+    font-family: Calibri;
+    text-transform: capitalize;
+}
+.iframemail {
+    border: 5px;
+    background-color: darkkhaki;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
     font-family: Calibri;
 }
-.iframe2{
-    background-color:lavender;
+.iframemail:focus{
+    color: palevioletred;
+    background-color: lightblue;
+}
+.iframe1:focus{
+    color: red;
+    background-color: black;
+}
+
+.iframe2 {
+    background-color: lavender;
     width: 300px;
     height: 200px;
     font-family: Antikvar;
     font-size: 20px;
+    text-transform: capitalize;
+}
+.iframe2:focus{
+    background-color:mediumpurple;
+    color: forestgreen;
+}
+a:hover{
+    color: dimgrey;
+    text-decoration:none;
+}
+
+table td {
+    border: 1px solid #000;
+}
+
+img:hover {
+    border: transparent;
 }
