@@ -1,0 +1,90 @@
+﻿*{margin:0;padding:0;}
+.container {
+    width: 1300px;
+    background-color: #fff;
+    border-top: 8px solid #a292b3;
+    border-bottom: 8px solid #a292b3;
+    margin:0 auto;
+}
+header{
+    height:130px;
+}
+.wrapper {
+    width:1020px;
+    margin:0 auto;
+}
+.logo {
+    float: left;
+}
+.logo img{float:left;
+          width:80px;
+          height:80px;
+          margin-top:25px;
+          
+}
+
+.menu {
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    line-height: 130px;
+    height: 130px;
+    padding-left: 30px;
+    }
+.menu li a{
+    font-size:19px;
+    font-family:"M PLUS Rounded 1c", sans-serif;
+    color: rgb (84, 84, 84);
+    text-decoration:none;
+}
+
+#Contact::before{
+    content: url("../img/contact.jpg")
+}
+
+#Services::before{
+    content: url("../img/services.jpg")
+}
+
+#About::before{
+    content: url("../img/about.jpg")
+}
+
+#Home::before{
+    content: url("../img/home.jpg")
+}
+
+.Minto {
+    font-size: 39px;
+    font-family:"SamoSans";
+    color: rgb(162,146,179);
+    text-transform: uppercase;
+    float: left;
+    line-height:130px;
+    height:130px;
+}
+
+.slider{
+    width:100%;
+}
+
+.qt {
+    border-top: 1px solid #bfbfbf;
+    border-bottom: 1px solid #bfbfbf;
+    width: 100%;
+    font-size: 23px;
+    font-family: "SamoSans";
+    text-align: center;
+    vertical-align:central;
+    height: 132px;
+    display:block;
+}
+.textqt {
+    text-align:center;
+    vertical-align:middle;
+}
+
+.pyst {
+    height:40px;
+}

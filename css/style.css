@@ -20,6 +20,9 @@
 }
 .img1 {
     border: 2px solid purple;
+    display: block;
+    float: left;
+    margin:15px;
 }
 .iframe1 {
     border: 5px;
@@ -70,4 +73,85 @@ table td {
 
 img:hover {
     border: transparent;
+}
+
+header {
+    height: 200px;
+    background-color:mediumpurple;       
+}
+
+.container {
+    width: 300px;
+    margin:0 auto;
+}
+
+#logo {
+    margin-left: 30px;
+    float: left;
+}
+.inline li {
+    display: inline;
+    margin-right: 20px;
+    float:right;
+}
+
+footer {
+    height: 200px;
+    background-color: indigo;  
+}
+
+footer div {
+    text-align:right;
+    margin: 10px;
+}
+
+#blockimg {
+    display:block;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#buybutton {
+    background-color:red;
+    font-size: 30px;
+    font-weight:600;
+}
+
+#buybutton:hover {
+    background-color:yellow;
+    color:blue;
+    text-decoration:none;
+}
+
+#buybutton:active {
+    background-color: forestgreen;
+    color: blue;
+    text-decoration: none;
+}
+
+
+.naverx a{
+    width: 50px;
+    height: 50px;
+    background-color:cyan;
+    text-align:center;
+    text-decoration: none;
+    display: block;
+    position: fixed;
+    border-radius: 12px;
+    bottom: 20px;
+    left: 40px;
+}
+
+.abs {
+    width: 50px;
+    height: 50px;
+    background-color: cyan;
+    position:absolute;
+    top:100px;
+    right;50px;
 }
