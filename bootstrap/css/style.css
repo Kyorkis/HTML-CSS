@@ -1,0 +1,33 @@
+﻿
+body{
+    width:1600px;
+}
+.container {
+    width:1170px;
+}
+.button {
+    background-color: #f16d7f;
+    width:70%;
+    height:38px;
+    font-size:15px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.shop .button {
+    float:right;
+}
+
+    .shop img {
+        float: left;
+    }
+
+.slider {
+    width:100%;
+    background-color: #e8e8e8;
+}
+
+#traingle {
+    width: 12px;
+    height: 92px;
+    background-color: #f16d7f;
+}
